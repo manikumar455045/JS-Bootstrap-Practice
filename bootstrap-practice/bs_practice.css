@@ -1,0 +1,30 @@
+.progress{
+    box-shadow: 0 5px 5px black;
+}
+
+.navbar-bg, .dropdown-menu{
+    background-color: #f4c761!important;
+}
+.navbar .dropdown-menu a{
+    border-bottom: 1px solid #007749;
+}
+
+.navbar-bg ul li a{
+    color: #007749!important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-bg a {
+    color: #007749!important;
+    font-weight: bold;
+    font-size: 30px; 
+}
+.navbar-bg ul li a.active{
+    border-bottom: 2px solid #007749;
+}
+.carousel-caption{
+margin-bottom: 100px;
+}
+.carousel-control-prev-icon .carousel-control-next-icon{
+    width: 50px!important;
+}

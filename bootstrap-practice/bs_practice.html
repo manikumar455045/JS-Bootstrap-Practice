@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./js_practice-1.css">
+    <link rel="stylesheet" href="./bs_practice.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Bootstrap</a>
+            <button class=" navbar-toggler" data-toggle="collapse" data-target="#nav-connect">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="nav-connect">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./bs_practice-2.html" target="_blank" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown">
+                            <i class="fas fa-search"></i>
+                            Services<i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Service-1</a>
+                            <a href="#" class="dropdown-item">Service-2</a>
+                            <a href="#" class="dropdown-item">Service-3</a>
+                            <a href="#" class="dropdown-item">Service-4</a>
+                        </div>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-address-card"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-id-card"></i>
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+                <div class="form-group form-inline ml-auto">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item bg-dark">
+                <img src="./img/Free_Sample_By_Wix-_1_.png" alt="">
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <p>The flavor of your food is what most customers focus on when they are
+                    deciding what to eat. How you present the dishes on your menu can help
+                    build anticipation, and a good menu description could even convince a
+                    hesitant customer to try something new. With this in mind, it's important to be precis
+                    e and thorough when choosing words to describe your food's flavor.</p>
+            </li>
+    </div>
+    <div class="container text-center bg-primary text-white mt-2">
+        <h5 class="display-5 p-3">List Groups</h5>
+    </div>
+    <div class="container bg-success">
+        <h5 class="text-center text-white p-2">Horizontal groups</h5>
+        <ul class="list-group p-3">
+            <li class="list-group-item list-group-item-action">Products</li>
+            <li class="list-group-item list-group-item-action">Recipes</li>
+            <li class="list-group-item list-group-item-action">About us</li>
+            <li class="list-group-item list-group-item-action">Contact</li>
+            <li class="list-group-item list-group-item-action">Cart<span
+                    class="badge badge-danger badge-pill p-1 ml-1">2</span></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="container mt-2 bg-warning">
+        <h5 class="text-center text-white p-2">Vertical List</h5>
+        <ul class="list-group list-group-horizontal p-3">
+            <li class="list-group-item list-group-item-action text-center">Products</li>
+            <li class="list-group-item list-group-item-action text-center">Recipes</li>
+            <li class="list-group-item list-group-item-action text-center">About us</li>
+            <li class="list-group-item list-group-item-action text-center">Contact</li>
+            <li class="list-group-item list-group-item-action text-center">Cart<span
+                    class="badge badge-danger badge-pill p-1 ml-1">2</span></li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <h5 class="text-center text-white bg-dark p-2">Forms</h5>
+        <div class="container text-white bg-danger">
+            <h3 class="text-center p-2">Register</h3>
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" id="username" required>
+                </div>
+                <div class="input-group form-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="far far fa-envelope"></i></span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email" required>
+
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            @gmail.com</span>
+                    </div>
+                </div>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-lock"></i></span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="password" required>
+                </div>
+                <div class="form-group ">
+                    <input type="password" class="form-control" placeholder="Confirm password" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" required>
+                        <option value="1" selected>Select your Course</option>
+                        <option value="2">UI</option>
+                        <option value="3">Java</option>
+                        <option value="4">React JS</option>
+                        <option value="5">Angular 10</option>
+                    </select>
+                </div>
+                <label class="form-check-label ">Select Gender</label>
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" name="gender" id="message-block">
+                    <label for="male">Male</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-group">
+                    <input type="file" class="form-control-file">
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-outline-white">
+                    <input type="reset" class="btn btn-outline-white">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container bg-success pb-5">
+        <h5 class="text-center text-white p-3">Progress Bar</h5>
+        <div class="progress">
+            <div class="progress-bar" style="width: 50%;">50%</div>
+        </div>
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <script src="https://kit.fontawesome.com/cbf5ca1e65.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ's</title>
+    <link rel="stylesheet" href="./bs_practice-2.css">
+    <link rel="stylesheet" href="./bs_practice.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+</head>
+
+<body>
+    <!--Modal-->
+    <button class="btn btn-outline-dark text-center" data-toggle="modal" data-target="#register-modal">Register</button>
+    <div class="modal active" id="register-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Enter your details here</h4>
+                    <button class="fa fa-times-circle" data-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username" id="username" required>
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="far far fa-envelope"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email" required>
+        
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    @gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-lock"></i></span>
+                            </div>
+                            <input type="password" class="form-control" placeholder="password" required>
+                        </div>
+                        <div class="form-group ">
+                            <input type="password" class="form-control" placeholder="Confirm password" required>
+                        </div>
+                        <div class="text-center">
+                            <input type="submit" class="btn btn-outline-dark">
+                            <input type="reset" class="btn btn-outline-dark">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="accordion" id="faq">
+            <div class="card">
+                <div class="card-header" data-toggle="collapse" data-target="#question1">
+                    <h4 class=" d-inline-block">question-1</h4><span class="icon pt-2"><i class="fa fa-caret-down"></i></span>
+                </div>
+                <div class="collapse" id="question1" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque
+                            numquam assumenda officia optio eaque est ex autem at voluptates!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" data-toggle="collapse" data-target="#question2">
+                    <h4 class=" d-inline-block">question-1</h4><span class="icon pt-2"><i class="fa fa-caret-down"></i></span>
+                </div>
+                <div class="collapse" id="question2" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque
+                            numquam assumenda officia optio eaque est ex autem at voluptates!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <script src="https://kit.fontawesome.com/cbf5ca1e65.js" crossorigin="anonymous"></script>
+    <script src="./bs_practice.js"></script>
+</body>
+
+</html>
